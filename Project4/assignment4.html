@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        표 스타일
+    </title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td, th
+        {
+            text-align:center;
+            padding : 10px;
+        }
+        thead {
+            background-color: gray;
+        }
+
+        td:first-child {
+            background-color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <table border=1.5>
+        <caption>2022 국민 독서실태</caption>
+        <thead>
+            <tr>
+                <th>구분</th>
+                <th>성인</th>
+                <th>독서자</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td> 오디오북 </td>
+                <td> 0.2권 </td>
+                <td> 5.5권 </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td> 종이책 </td>
+                <td> 6.1권 </td>
+                <td> 11.8권 </td>
+            </tr>
+            <tr>
+                <td> 전자책 </td>
+                <td> 1.2권 </td>
+                <td> 7.1권 </td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+
+</html>

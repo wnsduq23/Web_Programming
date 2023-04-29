@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        박스모델
+    </title>
+    <style>
+        div.box {
+            display: flex;
+            width: 200px;
+            height: 100px;
+            padding: 20px;
+            border: 10px dotted red;
+            align-items: center;
+        }
+
+        div.box2 {
+            display: inline-block;
+            width: 200px;
+            height: 100px;
+            box-sizing: border-box;
+            background-image: url("essac.jpeg");
+            background-position: center;
+            border: 10px dotted blue;
+            background-size: cover;
+            background-origin: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="box2"></div>
+    </div>
+</body>
+
+</html>

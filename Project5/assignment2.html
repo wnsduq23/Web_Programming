@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        회원 가입
+    </title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        form {
+            display: inline-block;
+            background-color: white;
+            padding: 30px;
+        }
+
+        ul span{
+            float : left;
+            width : 80px;
+        }
+        ul li{
+            margin : 20px;
+        }
+        input:focus {
+            background: lightgray;
+        }
+        input[type=submit] {
+            width : 22%;
+            position : relative;
+            left : 38%;
+            border-radius: 10px;
+        }
+
+        input[type=submit]:hover {
+            background: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend >Login</legend>
+            <ul>
+                <li>
+                    <span>ID</span> <input type="text">
+                </li>
+                <li>
+                    <span>e-mail</span> <input type="text" placeholder="abcd@domain.com"><br>
+                </li>
+                <li>
+                    <span>password</span><input type="password">
+                </li>
+            </ul>
+        </fieldset>
+            <label>
+                <span><input type="submit" value="submit"></span>
+            </label>
+    </form>
+
+</body>
+
+</html>
